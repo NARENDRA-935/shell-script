@@ -1,4 +1,5 @@
-name: Developer_Branch_CI
+name: narendra git action
+run-name: iam learning git 
 on: [push]
 
 jobs:
