@@ -5,4 +5,8 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - run: env
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: i am running shell script
+        shell: bash
+        run: bash script.sh
